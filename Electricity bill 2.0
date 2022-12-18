@@ -15,3 +15,5 @@ else:
     s = 75
 total = a + s
 print("Electricity Bill = %.2f"  %total)
+
+print("Code_is_made_By_Aryan_(""°✓°"")")
