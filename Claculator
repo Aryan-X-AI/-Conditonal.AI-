@@ -1,0 +1,30 @@
+print("1.Add")
+print("2.Substract")
+print("3.Multiply")
+print("4.Divide")
+
+user_choice=int(input("Enter Choice(1-4): "))
+
+if user_choice==1:
+    a=int(input("Enter A = "))
+    b=int(input("Enter B = "))
+    sum=a+b
+    print("Sum = ",sum)
+elif user_choice==2:
+    a=int(input("Enter A = "))
+    b=int(input("Enter B = "))
+    substraction=a-b
+    print("Difference = ",substraction)
+elif  user_choice==3:
+    a=int(input("Enter A = "))
+    b=int(input("Enter B = "))
+    multiplication=a*b
+    print("Product = ",multiplication)
+elif user_choice==4:
+    a=int(input("Enter A = "))
+    b=int(input("Enter B = "))
+    c=a/b
+    print("Quotient = ",c)
+else:
+    print("Invalid Choice")
+#Made by Aryan
