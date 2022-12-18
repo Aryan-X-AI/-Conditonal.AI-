@@ -50,3 +50,5 @@ def printWord(N):
         
 N = "*Number u want*"
 printWord(N)
+
+print("Code_is_made_By_Aryan_(""°✓°"")")
