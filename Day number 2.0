@@ -15,3 +15,5 @@ elif Day == 7:
     print("Sunday")       
 else:
     print("Again Check Your Number")
+
+print("Code_is_made_By_Aryan_(""°✓°"")")
