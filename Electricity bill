@@ -1,0 +1,17 @@
+# a = amount
+# s = surecharge
+u = int(input("Number of Units user has Consumed = "))
+if(u < 50):
+    a = u * 2.60
+    s = 25
+elif(u <= 100):
+    a = 130 + ((u - 50) * 3.25)
+    s = 35
+elif(u <= 200):
+    a = 130 + 162.50 + ((u - 100) * 5.26)
+    s = 45
+else:
+    a = 130 + 162.50 + 526 + ((u - 200) * 8.45)
+    s = 75
+total = a + s
+print("Electricity Bill = %.2f"  %total)
